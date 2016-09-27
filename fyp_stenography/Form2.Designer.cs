@@ -60,6 +60,22 @@
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.button9 = new System.Windows.Forms.Button();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.subject = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.body = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pswd = new System.Windows.Forms.TextBox();
+            this.username = new System.Windows.Forms.TextBox();
+            this.smtp = new System.Windows.Forms.TextBox();
+            this.to = new System.Windows.Forms.TextBox();
+            this.from = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
@@ -69,22 +85,6 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog4 = new System.Windows.Forms.OpenFileDialog();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.from = new System.Windows.Forms.TextBox();
-            this.to = new System.Windows.Forms.TextBox();
-            this.username = new System.Windows.Forms.TextBox();
-            this.pswd = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.body = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.subject = new System.Windows.Forms.TextBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.smtp = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -95,9 +95,9 @@
             this.tabPage3.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // label11
@@ -168,7 +168,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.LightGray;
+            this.tabPage1.BackColor = System.Drawing.Color.RoyalBlue;
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -179,7 +179,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.Silver;
+            this.groupBox2.BackColor = System.Drawing.Color.RoyalBlue;
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.button1);
@@ -305,7 +305,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.LightGray;
+            this.tabPage2.BackColor = System.Drawing.Color.RoyalBlue;
             this.tabPage2.Controls.Add(this.groupBox3);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -316,7 +316,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.Silver;
+            this.groupBox3.BackColor = System.Drawing.Color.RoyalBlue;
             this.groupBox3.Controls.Add(this.groupBox1);
             this.groupBox3.Controls.Add(this.button7);
             this.groupBox3.Controls.Add(this.label12);
@@ -388,7 +388,7 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.Color.Silver;
+            this.tabPage4.BackColor = System.Drawing.Color.RoyalBlue;
             this.tabPage4.Controls.Add(this.button9);
             this.tabPage4.Controls.Add(this.groupBox5);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
@@ -408,159 +408,9 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // openFileDialog2
-            // 
-            this.openFileDialog2.FileName = "openFileDialog2";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.Red;
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 22);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // openFileDialog3
-            // 
-            this.openFileDialog3.FileName = "openFileDialog3";
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1257, 25);
-            this.toolStrip1.TabIndex = 9;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(685, 63);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(542, 403);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // openFileDialog4
-            // 
-            this.openFileDialog4.FileName = "openFileDialog4";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(10, 159);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 13);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "Subject";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(10, 107);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 13);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "Username:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 57);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 13);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "To:";
-            // 
-            // from
-            // 
-            this.from.Location = new System.Drawing.Point(92, 24);
-            this.from.Name = "from";
-            this.from.Size = new System.Drawing.Size(333, 20);
-            this.from.TabIndex = 6;
-            // 
-            // to
-            // 
-            this.to.Location = new System.Drawing.Point(92, 50);
-            this.to.Name = "to";
-            this.to.Size = new System.Drawing.Size(333, 20);
-            this.to.TabIndex = 7;
-            // 
-            // username
-            // 
-            this.username.BackColor = System.Drawing.SystemColors.Window;
-            this.username.Location = new System.Drawing.Point(92, 100);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(333, 20);
-            this.username.TabIndex = 9;
-            // 
-            // pswd
-            // 
-            this.pswd.Location = new System.Drawing.Point(92, 126);
-            this.pswd.Name = "pswd";
-            this.pswd.Size = new System.Drawing.Size(333, 20);
-            this.pswd.TabIndex = 10;
-            this.pswd.UseSystemPasswordChar = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 31);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(33, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "From:";
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(350, 177);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "Attach File";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(10, 133);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(53, 13);
-            this.label15.TabIndex = 12;
-            this.label15.Text = "Password";
-            // 
-            // body
-            // 
-            this.body.Location = new System.Drawing.Point(13, 203);
-            this.body.Multiline = true;
-            this.body.Name = "body";
-            this.body.Size = new System.Drawing.Size(412, 130);
-            this.body.TabIndex = 13;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(10, 187);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(50, 13);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "Message";
-            // 
-            // subject
-            // 
-            this.subject.Location = new System.Drawing.Point(92, 152);
-            this.subject.Name = "subject";
-            this.subject.Size = new System.Drawing.Size(333, 20);
-            this.subject.TabIndex = 15;
-            // 
             // groupBox5
             // 
-            this.groupBox5.BackColor = System.Drawing.Color.Silver;
+            this.groupBox5.BackColor = System.Drawing.Color.RoyalBlue;
             this.groupBox5.Controls.Add(this.subject);
             this.groupBox5.Controls.Add(this.label16);
             this.groupBox5.Controls.Add(this.body);
@@ -582,14 +432,73 @@
             this.groupBox5.TabIndex = 0;
             this.groupBox5.TabStop = false;
             // 
-            // label6
+            // subject
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(10, 81);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 13);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Smtp Server:";
+            this.subject.Location = new System.Drawing.Point(92, 152);
+            this.subject.Name = "subject";
+            this.subject.Size = new System.Drawing.Size(333, 20);
+            this.subject.TabIndex = 15;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(10, 187);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(50, 13);
+            this.label16.TabIndex = 14;
+            this.label16.Text = "Message";
+            // 
+            // body
+            // 
+            this.body.Location = new System.Drawing.Point(13, 203);
+            this.body.Multiline = true;
+            this.body.Name = "body";
+            this.body.Size = new System.Drawing.Size(412, 130);
+            this.body.TabIndex = 13;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(10, 133);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(53, 13);
+            this.label15.TabIndex = 12;
+            this.label15.Text = "Password";
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(350, 177);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 11;
+            this.button8.Text = "Attach File";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(10, 31);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(33, 13);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "From:";
+            // 
+            // pswd
+            // 
+            this.pswd.Location = new System.Drawing.Point(92, 126);
+            this.pswd.Name = "pswd";
+            this.pswd.Size = new System.Drawing.Size(333, 20);
+            this.pswd.TabIndex = 10;
+            this.pswd.UseSystemPasswordChar = true;
+            // 
+            // username
+            // 
+            this.username.BackColor = System.Drawing.SystemColors.Window;
+            this.username.Location = new System.Drawing.Point(92, 100);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(333, 20);
+            this.username.TabIndex = 9;
             // 
             // smtp
             // 
@@ -599,12 +508,104 @@
             this.smtp.TabIndex = 8;
             this.smtp.TextChanged += new System.EventHandler(this.smtp_TextChanged);
             // 
+            // to
+            // 
+            this.to.Location = new System.Drawing.Point(92, 50);
+            this.to.Name = "to";
+            this.to.Size = new System.Drawing.Size(333, 20);
+            this.to.TabIndex = 7;
+            // 
+            // from
+            // 
+            this.from.Location = new System.Drawing.Point(92, 24);
+            this.from.Name = "from";
+            this.from.Size = new System.Drawing.Size(333, 20);
+            this.from.TabIndex = 6;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(10, 57);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(23, 13);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "To:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(10, 81);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 13);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Smtp Server:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(10, 107);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(58, 13);
+            this.label7.TabIndex = 4;
+            this.label7.Text = "Username:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(10, 159);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(43, 13);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "Subject";
+            // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.FileName = "openFileDialog2";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.Red;
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 22);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // openFileDialog3
+            // 
+            this.openFileDialog3.FileName = "openFileDialog3";
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1257, 25);
+            this.toolStrip1.TabIndex = 9;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(685, 63);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(542, 403);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // openFileDialog4
+            // 
+            this.openFileDialog4.FileName = "openFileDialog4";
+            // 
             // Form2
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkGray;
+            this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(1257, 561);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabControl1);
@@ -632,11 +633,11 @@
             this.tabPage3.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

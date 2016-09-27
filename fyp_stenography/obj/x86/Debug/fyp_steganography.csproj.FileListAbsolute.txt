@@ -7,3 +7,12 @@ C:\Users\hn\Documents\stegenography\stegenography\fyp_stenography\obj\x86\Debug\
 C:\Users\hn\Documents\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_steganography.csproj.GenerateResource.Cache
 C:\Users\hn\Documents\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_stenography.exe
 C:\Users\hn\Documents\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_stenography.pdb
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_stenography.exe
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_stenography.pdb
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\bin\Debug\fyp_stenography.exe
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\bin\Debug\fyp_stenography.pdb
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_Steganography.csprojResolveAssemblyReference.cache
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_stenography.Form1.resources
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_stenography.Form2.resources
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_stenography.Properties.Resources.resources
+C:\Users\hn\Documents\Visual Studio 2015\Projects\stegenography\stegenography\fyp_stenography\obj\x86\Debug\fyp_Steganography.csproj.GenerateResource.Cache
